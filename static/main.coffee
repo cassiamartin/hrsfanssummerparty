@@ -99,13 +99,11 @@ class PageModel
 
     # Post method; pass the endpoint and the message to post
     post_json: (url, message) =>
-        data = new FormData()
-        data.append('message', JSON.stringify message)
-        data.append('group', @selected_group())
+        message.group = @selected_group()
 
         req = new XMLHttpRequest()
         req.open('POST', url, false)
-        req.send data
+        req.send JSON.stringify message
         { @server_data, error } = JSON.parse req.response
 
         @reset()

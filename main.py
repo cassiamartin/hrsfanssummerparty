@@ -59,8 +59,9 @@ class PostHandler(webapp2.RequestHandler):
     Generic POST method handler.
     '''
     def post(self):
-        message = json.loads(self.request.get('message'))
-        group = self.request.get('group') if users.is_current_user_admin() else _group()
+        message = json.loads(self.request.body)
+        message_group = message.pop('group')
+        group = message_group if users.is_current_user_admin() else _group()
 
         try:
             self.process(message, group)
