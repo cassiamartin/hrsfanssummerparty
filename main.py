@@ -60,11 +60,10 @@ class PostHandler(webapp2.RequestHandler):
     '''
     def post(self):
         message = json.loads(self.request.get('message'))
-        group = _group()
-        target_group = self.request.get('group') if users.is_current_user_admin() else group
+        group = self.request.get('group') if users.is_current_user_admin() else _group()
 
         try:
-            self.process(message, target_group)
+            self.process(message, group)
         except APIError as e:
             logging.info('Error processing request: "%s"', e)
             error = str(e)
