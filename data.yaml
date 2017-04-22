@@ -24,19 +24,19 @@ enable_reservations_after: 1462669200
 days:
   - id: 1
     name: Friday
-    date: July 1
+    date: June 30
   - id: 2
     name: Saturday
-    date: July 2
+    date: July 1
   - id: 3
     name: Sunday
-    date: July 3
+    date: July 2
   - id: 4
     name: Monday
-    date: July 4
+    date: July 3
   - id: 5
     name: Tuesday
-    date: July 5
+    date: July 4
 
 meals:
   - id: 1
