@@ -321,10 +321,10 @@ class EditRegistration extends Section
         @full_name = ko.observable()
         @phone = ko.observable()
         @nights = {}
-        for night in page.nights
+        for night in @page.nights
             @nights[night.id] = ko.observable()
         @meals = {}
-        for meal in page.party_data.meals
+        for meal in @page.party_data.meals
             @meals[meal.id] = ko.observable()
         @emergency = ko.observable()
         @dietary = new OptionalEntry()
