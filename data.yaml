@@ -333,16 +333,19 @@ rooms:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2012
             bed:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2013
             bed: Twin bed
             costs:
                 1: 35
                 2: 55
+                3: 55
       - room: 2. Room with bath
         beds:
           - id: 2021
@@ -350,16 +353,19 @@ rooms:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2022
             bed:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2023
             bed: Twin bed
             costs:
                 1: 55
                 2: 55
+                3: 55
       - room: 3. Room with half-bath
         beds:
           - id: 2031
@@ -367,16 +373,19 @@ rooms:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2032
             bed:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2033
             bed: Twin bed
             costs:
                 1: 55
                 2: 55
+                3: 55
       - room: 4. Room
         beds:
           - id: 2041
@@ -384,16 +393,19 @@ rooms:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2042
             bed:
             costs:
                 1: 50
                 2: 50
+                3: 50
           - id: 2043
             bed: Twin bed
             costs:
                 1: 55
                 2: 55
+                3: 55
       - room: 5. Room
         beds:
           - id: 2051
@@ -401,11 +413,13 @@ rooms:
             costs:
                 1: 55
                 2: 55
+                3: 55
           - id: 2052
             bed: Twin bed 2
             costs:
                 1: 55
                 2: 55
+                3: 55
       - room: 6. Room
         beds:
           - id: 2061
@@ -413,16 +427,19 @@ rooms:
             costs:
                 1: 55
                 2: 55
+                3: 55
           - id: 2062
             bed: Twin bed 2
             costs:
                 1: 55
                 2: 55
+                3: 55
           - id: 2063
             bed: Air mattress
             costs:
                 1: 35
                 2: 35
+                3: 35
       - room: 7. Room
         beds:
           - id: 2071
@@ -430,16 +447,19 @@ rooms:
             costs:
                 1: 55
                 2: 55
+                3: 55
           - id: 2072
             bed: Twin bed 2
             costs:
                 1: 55
                 2: 55
+                3: 55
           - id: 2073
             bed: Air mattress
             costs:
                 1: 35
                 2: 35
+                3: 35
     quiet_house:
       - room: 1. Room
         beds:
